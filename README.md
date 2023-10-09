@@ -73,8 +73,6 @@ The main aim is to get a paginated list of football competitions and render thei
 
 - The `<ul>` should have data-test-id attribute `football-competitions`.
 
-```
-
 # User Lists
 
 ## Application Demo:
