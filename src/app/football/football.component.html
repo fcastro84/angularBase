@@ -1,0 +1,18 @@
+<h1 class="layout-column align-items-center mt-50">Paginated Football Competitions</h1>
+<div class="layout-column align-items-center mt-50">
+    <section class="layout-row align-items-center justify-content-center" data-test-id="page-number-buttons">
+      <button *ngFor="let item of pages; let i=index" (click)="searchResults( i+1 )">
+        {{ i + 1 }}
+      </button>
+    </section>
+  
+    <ul class="mt-50 styled" data-test-id="football-competitions">
+        <ng-container *ngIf="gool$ |async as datos">
+            <li class="slide-up-fade-in py-10" *ngFor="let item of datos.data" >
+            Competition {{item.name}} won by {{item.winner}} in year {{item.year}}
+            </li>
+        </ng-container>
+        
+      
+    </ul>
+  </div>
