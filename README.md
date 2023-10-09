@@ -77,6 +77,10 @@ The main aim is to get a paginated list of football competitions and render thei
 
 # User Lists
 
+## Application Demo:
+
+![](https://hrcdn.net/s3_pub/istreet-assets/CgD5M0JuOd1ffgjGhwyPzQ/users-list.gif)
+
 ## Functionality Requirements
 
 There are 2 components in the app:
